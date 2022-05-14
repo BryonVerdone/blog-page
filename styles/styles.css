@@ -20,6 +20,9 @@
   --grey-700: #484848;
   --grey-400: #9a9a9a;
   --grey-100: #999999;
+  /* Fonts */
+  --main-font: 'Poppins', sans-serif;
+  --secondary-font: 'Source Sans Pro', sans-serif;
 }
 a {
   text-decoration: none;
@@ -59,6 +62,11 @@ Header
 }
 .logo {
   padding-right: 15px;
+}
+.header button {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  font-weight: 600;
 }
 /* 
 ==========
@@ -102,3 +110,48 @@ Navbar
 Hero section
 ==========
 */
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.hero-text {
+  padding: 12px;
+}
+.hero-text p {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22.63px;
+}
+.hero-content button {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  background: var(--brand-color-1);
+  color: var(--grey-900);
+}
+.hero-content span {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  color: var(--grey-400);
+}
+.hero-heading {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 32px;
+}
+.post-info {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 829px) {
+  .hero-img-container {
+    display: none;
+  }
+}
