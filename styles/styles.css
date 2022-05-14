@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+:root {
+  /* Brand Colors */
+  --brand-color-1: #ffcda3;
+  --brand-color-2: #fce2ce;
+  --brand-color-3: #ffede5;
+  --brand-color-4: #fff5ef;
+  /* System Colors */
+  --primary-color: #46bcf2;
+  --success-color: #16c79a;
+  --danger-color: #ef4f4f;
+  --warning-color: #f6c065;
+  --info-color: #008891;
+  /* Greyscale */
+  --grey-900: #101010;
+  --grey-700: #484848;
+  --grey-400: #9a9a9a;
+  --grey-100: #999999;
+}
