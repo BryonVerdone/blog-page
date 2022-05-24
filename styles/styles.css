@@ -45,6 +45,12 @@ Util classes
   max-width: 1170px;
   padding: 0 1rem;
 }
+.section-title {
+  font-size: 36px;
+  font-family: var(--main-font);
+  font-weight: 600;
+}
+
 /* 
 ==========
 Header
@@ -117,14 +123,13 @@ Hero section
   align-items: center;
   padding: 1rem;
 }
-.hero-text {
-  /* padding: 12px; */
-}
+
 .hero-text p {
   font-family: var(--secondary-font);
   font-weight: 400;
   font-size: 18px;
   line-height: 22.63px;
+  padding-right: 1rem;
 }
 .hero-content button {
   font-family: var(--secondary-font);
@@ -200,4 +205,80 @@ Thumbnail section
     align-items: center;
     justify-content: center;
   }
+}
+/* 
+==========
+Trending section
+==========
+*/
+.trending-section {
+  margin-top: 116px;
+}
+.trending-card-container {
+  margin-top: 53px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  place-items: center;
+}
+@media screen and (max-width: 1176px) {
+  .trending-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .trending-card-container {
+    grid-template-columns: 1fr;
+  }
+}
+.trending-card {
+  position: relative;
+}
+.trending-card img {
+  width: 100%;
+  object-fit: cover;
+}
+.trending-btn {
+  position: absolute;
+  top: 21px;
+  left: 23px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 16px;
+}
+.trending-text {
+  padding: 32px;
+}
+.trending-text span {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  color: var(--grey-400);
+}
+.trending-text p {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--secondary-font);
+  padding-top: 8px;
+  line-height: 20px;
+}
+.green {
+  background: var(--success-green);
+}
+.yellow {
+  background: var(--warning-yellow);
+}
+.light-blue {
+  background: var(--primary-blue);
+}
+.red {
+  background: var(--danger-red);
+}
+.dark-blue {
+  background: var(--info-darkblue);
+}
+.grey {
+  background: var(--grey-900);
 }
