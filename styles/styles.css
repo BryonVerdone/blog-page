@@ -232,11 +232,13 @@ Trending section
   }
 }
 .trending-card {
+  border-radius: 3%;
   position: relative;
+  box-shadow: -2px 5px 15px 5px rgba(0, 0, 0, 0.27);
 }
 .trending-card img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .trending-btn {
   position: absolute;
@@ -282,3 +284,8 @@ Trending section
 .grey {
   background: var(--grey-900);
 }
+/* 
+==========
+Editor section
+==========
+*/
