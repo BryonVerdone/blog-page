@@ -289,3 +289,46 @@ Trending section
 Editor section
 ==========
 */
+.editor-section {
+  margin-top: 66px;
+}
+.editor-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+}
+.editor-content button {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  background: var(--brand-color-1);
+  color: var(--grey-900);
+}
+
+.editor-content span {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  color: var(--grey-400);
+}
+.editor-heading {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 32px;
+}
+.editor-text p {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22.63px;
+  padding-right: 1rem;
+}
+@media screen and (max-width: 829px) {
+  .editor-img-container {
+    display: none;
+  }
+  .editor-content button {
+    margin-top: 1rem;
+  }
+}
