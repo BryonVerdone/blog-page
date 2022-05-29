@@ -324,6 +324,10 @@ Editor section
   line-height: 22.63px;
   padding-right: 1rem;
 }
+.editor-img {
+  border-radius: 8px;
+  object-fit: cover;
+}
 @media screen and (max-width: 829px) {
   .editor-img-container {
     display: none;
