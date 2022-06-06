@@ -293,6 +293,9 @@ Editor section
   margin-top: 66px;
 }
 .editor-content {
+  background: var(--brand-color-3);
+  padding: 2rem;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,4 +389,41 @@ Recent section
   .recent-content {
     grid-template-columns: 1fr;
   }
+}
+/* 
+==========
+Instagram section
+==========
+*/
+.instagram-section {
+  background-color: var(--brand-color-3);
+}
+.insta-logo {
+  padding-top: 2rem;
+  margin-top: 101px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.insta-logo span {
+  color: var(--grey-400);
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  padding-left: 8px;
+}
+
+.insta-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--main-font);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
 }
