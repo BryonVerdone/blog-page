@@ -394,6 +394,7 @@ Instagram section
 */
 .instagram-section {
   background-color: var(--brand-color-3);
+  padding-bottom: 200px;
 }
 .insta-logo {
   padding-top: 2rem;
@@ -479,4 +480,61 @@ Instagram section
 }
 .insta-text span + span {
   color: var(--grey-400);
+}
+/* 
+==========
+subscribe section
+==========
+*/
+.subscribe-section {
+  background-color: var(--brand-color-3);
+}
+.subscribe-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+@media screen and (max-width: 768px) {
+  .subscribe-content {
+    grid-template-columns: 1fr;
+  }
+  .subscribe-col-R {
+    display: none;
+  }
+  form {
+    flex-direction: column;
+  }
+  input {
+    margin-bottom: 1rem;
+  }
+}
+.subscribe-subheading {
+  display: flex;
+  align-items: center;
+}
+.subscribe-subheading span {
+  color: var(--grey-400);
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.subscribe-heading {
+  font-family: var(--main-font);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+form {
+  display: flex;
+}
+input {
+  border: none;
+  padding: 20px;
+  width: 100%;
+  margin-right: 10px;
+}
+.sub-btn {
+  padding: 24px 35px;
 }
