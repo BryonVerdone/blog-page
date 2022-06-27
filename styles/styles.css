@@ -490,6 +490,8 @@ Instagram section
 .insta-text span + span {
   color: var(--grey-400);
 }
+
+/* TODO:fix padding between subscribe and footer section */
 /* 
 ==========
 subscribe section
