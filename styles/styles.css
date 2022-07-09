@@ -301,6 +301,9 @@ Editor section
 .editor-section {
   margin-top: 66px;
 }
+.editor-section h3 {
+  margin-bottom: 30px;
+}
 .editor-content {
   background: var(--brand-color-3);
   padding: 2rem;
@@ -432,6 +435,7 @@ Instagram section
   line-height: 64px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .insta-content {
@@ -491,7 +495,6 @@ Instagram section
   color: var(--grey-400);
 }
 
-/* TODO:fix padding between subscribe and footer section */
 /* 
 ==========
 subscribe section
@@ -499,6 +502,7 @@ subscribe section
 */
 .subscribe-section {
   background-color: var(--brand-color-3);
+  padding-bottom: 200px;
 }
 .subscribe-content {
   display: grid;
